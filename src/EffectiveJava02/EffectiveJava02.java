@@ -69,7 +69,7 @@ class NutritionFacts{
 }
 public class EffectiveJava02 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         NutritionFacts cocaCola = new NutritionFacts.Builder(240,8).calories(-2)
                 .sodium(35).carbohydrate(27).fat(55).build();
         System.out.println("cocaCola NutritionFact: " + cocaCola.toString());
